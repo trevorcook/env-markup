@@ -1,0 +1,24 @@
+\usepackage{enumitem}
+\usepackage{amsfonts}
+
+% Attempt to get special case title page. Close, tweaking may solve.
+%\setbeamertemplate{title page}{
+%  \begin{picture}(0,0)
+%    \put(-30,-163){%
+%      \includegraphics[height=\paperheight,width=\paperwidth]{devcom-template-title}
+%            }
+%            \put(0,-110.7){%
+%                \begin{minipage}[b][45mm][t]{226mm}
+%                    \usebeamerfont{title}{\inserttitle\par}
+%                    \usebeamerfont{author}{\insertauthor\par}
+%                \end{minipage}
+%            }
+%            \end{picture}
+%    }
+
+\setlist[itemize,1]{label=$\circ$}
+\setlist[itemize,2]{label=$-$}
+\setbeamertemplate{frametitle}[default][center]
+
+%\setbeamertemplate{itemize items}[default]
+%\setbeamertemplate{enumerate items}[default]
